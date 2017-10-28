@@ -1,0 +1,501 @@
+$date
+	Sat Oct 28 22:20:07 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module t_RegisterFile $end
+$var wire 32 ! readData2 [0:31] $end
+$var wire 32 " readData1 [0:31] $end
+$var reg 5 # readReg1 [0:4] $end
+$var reg 5 $ readReg2 [0:4] $end
+$var reg 32 % reg_data [0:31] $end
+$var reg 5 & register_no [0:4] $end
+$var reg 1 ' write $end
+$scope module inst $end
+$var wire 5 ( readReg1 [0:4] $end
+$var wire 5 ) readReg2 [0:4] $end
+$var wire 32 * reg_data [0:31] $end
+$var wire 5 + register_no [0:4] $end
+$var wire 1 ' write $end
+$var wire 32 , out9 [0:31] $end
+$var wire 32 - out8 [0:31] $end
+$var wire 32 . out7 [0:31] $end
+$var wire 32 / out6 [0:31] $end
+$var wire 32 0 out5 [0:31] $end
+$var wire 32 1 out4 [0:31] $end
+$var wire 32 2 out32 [0:31] $end
+$var wire 32 3 out31 [0:31] $end
+$var wire 32 4 out30 [0:31] $end
+$var wire 32 5 out3 [0:31] $end
+$var wire 32 6 out29 [0:31] $end
+$var wire 32 7 out28 [0:31] $end
+$var wire 32 8 out27 [0:31] $end
+$var wire 32 9 out26 [0:31] $end
+$var wire 32 : out25 [0:31] $end
+$var wire 32 ; out24 [0:31] $end
+$var wire 32 < out23 [0:31] $end
+$var wire 32 = out22 [0:31] $end
+$var wire 32 > out21 [0:31] $end
+$var wire 32 ? out20 [0:31] $end
+$var wire 32 @ out2 [0:31] $end
+$var wire 32 A out19 [0:31] $end
+$var wire 32 B out18 [0:31] $end
+$var wire 32 C out17 [0:31] $end
+$var wire 32 D out16 [0:31] $end
+$var wire 32 E out15 [0:31] $end
+$var wire 32 F out14 [0:31] $end
+$var wire 32 G out13 [0:31] $end
+$var wire 32 H out12 [0:31] $end
+$var wire 32 I out11 [0:31] $end
+$var wire 32 J out10 [0:31] $end
+$var wire 32 K out1 [0:31] $end
+$var reg 32 L data_write1 [0:31] $end
+$var reg 32 M data_write10 [0:31] $end
+$var reg 32 N data_write11 [0:31] $end
+$var reg 32 O data_write12 [0:31] $end
+$var reg 32 P data_write13 [0:31] $end
+$var reg 32 Q data_write14 [0:31] $end
+$var reg 32 R data_write15 [0:31] $end
+$var reg 32 S data_write16 [0:31] $end
+$var reg 32 T data_write17 [0:31] $end
+$var reg 32 U data_write18 [0:31] $end
+$var reg 32 V data_write19 [0:31] $end
+$var reg 32 W data_write2 [0:31] $end
+$var reg 32 X data_write20 [0:31] $end
+$var reg 32 Y data_write21 [0:31] $end
+$var reg 32 Z data_write22 [0:31] $end
+$var reg 32 [ data_write23 [0:31] $end
+$var reg 32 \ data_write24 [0:31] $end
+$var reg 32 ] data_write25 [0:31] $end
+$var reg 32 ^ data_write26 [0:31] $end
+$var reg 32 _ data_write27 [0:31] $end
+$var reg 32 ` data_write28 [0:31] $end
+$var reg 32 a data_write29 [0:31] $end
+$var reg 32 b data_write3 [0:31] $end
+$var reg 32 c data_write30 [0:31] $end
+$var reg 32 d data_write31 [0:31] $end
+$var reg 32 e data_write32 [0:31] $end
+$var reg 32 f data_write4 [0:31] $end
+$var reg 32 g data_write5 [0:31] $end
+$var reg 32 h data_write6 [0:31] $end
+$var reg 32 i data_write7 [0:31] $end
+$var reg 32 j data_write8 [0:31] $end
+$var reg 32 k data_write9 [0:31] $end
+$var reg 32 l readData1 [0:31] $end
+$var reg 32 m readData2 [0:31] $end
+$var reg 1 n write1 $end
+$var reg 1 o write10 $end
+$var reg 1 p write11 $end
+$var reg 1 q write12 $end
+$var reg 1 r write13 $end
+$var reg 1 s write14 $end
+$var reg 1 t write15 $end
+$var reg 1 u write16 $end
+$var reg 1 v write17 $end
+$var reg 1 w write18 $end
+$var reg 1 x write19 $end
+$var reg 1 y write2 $end
+$var reg 1 z write20 $end
+$var reg 1 { write21 $end
+$var reg 1 | write22 $end
+$var reg 1 } write23 $end
+$var reg 1 ~ write24 $end
+$var reg 1 !" write25 $end
+$var reg 1 "" write26 $end
+$var reg 1 #" write27 $end
+$var reg 1 $" write28 $end
+$var reg 1 %" write29 $end
+$var reg 1 &" write3 $end
+$var reg 1 '" write30 $end
+$var reg 1 (" write31 $end
+$var reg 1 )" write32 $end
+$var reg 1 *" write4 $end
+$var reg 1 +" write5 $end
+$var reg 1 ," write6 $end
+$var reg 1 -" write7 $end
+$var reg 1 ." write8 $end
+$var reg 1 /" write9 $end
+$scope module rg1 $end
+$var wire 32 0" data_write [0:31] $end
+$var wire 1 n write $end
+$var reg 32 1" data [0:31] $end
+$upscope $end
+$scope module rg10 $end
+$var wire 32 2" data_write [0:31] $end
+$var wire 1 o write $end
+$var reg 32 3" data [0:31] $end
+$upscope $end
+$scope module rg11 $end
+$var wire 32 4" data_write [0:31] $end
+$var wire 1 p write $end
+$var reg 32 5" data [0:31] $end
+$upscope $end
+$scope module rg12 $end
+$var wire 32 6" data_write [0:31] $end
+$var wire 1 q write $end
+$var reg 32 7" data [0:31] $end
+$upscope $end
+$scope module rg13 $end
+$var wire 32 8" data_write [0:31] $end
+$var wire 1 r write $end
+$var reg 32 9" data [0:31] $end
+$upscope $end
+$scope module rg14 $end
+$var wire 32 :" data_write [0:31] $end
+$var wire 1 s write $end
+$var reg 32 ;" data [0:31] $end
+$upscope $end
+$scope module rg15 $end
+$var wire 32 <" data_write [0:31] $end
+$var wire 1 t write $end
+$var reg 32 =" data [0:31] $end
+$upscope $end
+$scope module rg16 $end
+$var wire 32 >" data_write [0:31] $end
+$var wire 1 u write $end
+$var reg 32 ?" data [0:31] $end
+$upscope $end
+$scope module rg17 $end
+$var wire 32 @" data_write [0:31] $end
+$var wire 1 v write $end
+$var reg 32 A" data [0:31] $end
+$upscope $end
+$scope module rg18 $end
+$var wire 32 B" data_write [0:31] $end
+$var wire 1 w write $end
+$var reg 32 C" data [0:31] $end
+$upscope $end
+$scope module rg19 $end
+$var wire 32 D" data_write [0:31] $end
+$var wire 1 x write $end
+$var reg 32 E" data [0:31] $end
+$upscope $end
+$scope module rg2 $end
+$var wire 32 F" data_write [0:31] $end
+$var wire 1 y write $end
+$var reg 32 G" data [0:31] $end
+$upscope $end
+$scope module rg20 $end
+$var wire 32 H" data_write [0:31] $end
+$var wire 1 z write $end
+$var reg 32 I" data [0:31] $end
+$upscope $end
+$scope module rg21 $end
+$var wire 32 J" data_write [0:31] $end
+$var wire 1 { write $end
+$var reg 32 K" data [0:31] $end
+$upscope $end
+$scope module rg22 $end
+$var wire 32 L" data_write [0:31] $end
+$var wire 1 | write $end
+$var reg 32 M" data [0:31] $end
+$upscope $end
+$scope module rg23 $end
+$var wire 32 N" data_write [0:31] $end
+$var wire 1 } write $end
+$var reg 32 O" data [0:31] $end
+$upscope $end
+$scope module rg24 $end
+$var wire 32 P" data_write [0:31] $end
+$var wire 1 ~ write $end
+$var reg 32 Q" data [0:31] $end
+$upscope $end
+$scope module rg25 $end
+$var wire 32 R" data_write [0:31] $end
+$var wire 1 !" write $end
+$var reg 32 S" data [0:31] $end
+$upscope $end
+$scope module rg26 $end
+$var wire 32 T" data_write [0:31] $end
+$var wire 1 "" write $end
+$var reg 32 U" data [0:31] $end
+$upscope $end
+$scope module rg27 $end
+$var wire 32 V" data_write [0:31] $end
+$var wire 1 #" write $end
+$var reg 32 W" data [0:31] $end
+$upscope $end
+$scope module rg28 $end
+$var wire 32 X" data_write [0:31] $end
+$var wire 1 $" write $end
+$var reg 32 Y" data [0:31] $end
+$upscope $end
+$scope module rg29 $end
+$var wire 32 Z" data_write [0:31] $end
+$var wire 1 %" write $end
+$var reg 32 [" data [0:31] $end
+$upscope $end
+$scope module rg3 $end
+$var wire 32 \" data_write [0:31] $end
+$var wire 1 &" write $end
+$var reg 32 ]" data [0:31] $end
+$upscope $end
+$scope module rg30 $end
+$var wire 32 ^" data_write [0:31] $end
+$var wire 1 '" write $end
+$var reg 32 _" data [0:31] $end
+$upscope $end
+$scope module rg31 $end
+$var wire 32 `" data_write [0:31] $end
+$var wire 1 (" write $end
+$var reg 32 a" data [0:31] $end
+$upscope $end
+$scope module rg32 $end
+$var wire 32 b" data_write [0:31] $end
+$var wire 1 )" write $end
+$var reg 32 c" data [0:31] $end
+$upscope $end
+$scope module rg4 $end
+$var wire 32 d" data_write [0:31] $end
+$var wire 1 *" write $end
+$var reg 32 e" data [0:31] $end
+$upscope $end
+$scope module rg5 $end
+$var wire 32 f" data_write [0:31] $end
+$var wire 1 +" write $end
+$var reg 32 g" data [0:31] $end
+$upscope $end
+$scope module rg6 $end
+$var wire 32 h" data_write [0:31] $end
+$var wire 1 ," write $end
+$var reg 32 i" data [0:31] $end
+$upscope $end
+$scope module rg7 $end
+$var wire 32 j" data_write [0:31] $end
+$var wire 1 -" write $end
+$var reg 32 k" data [0:31] $end
+$upscope $end
+$scope module rg8 $end
+$var wire 32 l" data_write [0:31] $end
+$var wire 1 ." write $end
+$var reg 32 m" data [0:31] $end
+$upscope $end
+$scope module rg9 $end
+$var wire 32 n" data_write [0:31] $end
+$var wire 1 /" write $end
+$var reg 32 o" data [0:31] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 o"
+bx n"
+b0 m"
+bx l"
+b0 k"
+bx j"
+b0 i"
+bx h"
+b0 g"
+bx f"
+b0 e"
+bx d"
+b0 c"
+bx b"
+b0 a"
+bx `"
+b0 _"
+bx ^"
+b0 ]"
+bx \"
+b0 ["
+bx Z"
+b0 Y"
+bx X"
+b0 W"
+bx V"
+b0 U"
+bx T"
+b0 S"
+bx R"
+b0 Q"
+bx P"
+b0 O"
+bx N"
+b0 M"
+bx L"
+b0 K"
+bx J"
+b0 I"
+bx H"
+b111001110011100111001110011110 G"
+b111001110011100111001110011110 F"
+b0 E"
+bx D"
+b0 C"
+bx B"
+b0 A"
+bx @"
+b0 ?"
+bx >"
+b0 ="
+bx <"
+b0 ;"
+bx :"
+b0 9"
+bx 8"
+b0 7"
+bx 6"
+b0 5"
+bx 4"
+b0 3"
+bx 2"
+b0 1"
+bx 0"
+x/"
+x."
+x-"
+x,"
+x+"
+x*"
+x)"
+x("
+x'"
+x&"
+x%"
+x$"
+x#"
+x""
+x!"
+x~
+x}
+x|
+x{
+xz
+1y
+xx
+xw
+xv
+xu
+xt
+xs
+xr
+xq
+xp
+xo
+xn
+bx m
+bx l
+bx k
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+b111001110011100111001110011110 W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b111001110011100111001110011110 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b1 +
+b111001110011100111001110011110 *
+b0 )
+b0 (
+1'
+b1 &
+b111001110011100111001110011110 %
+b0 $
+b0 #
+bx "
+bx !
+$end
+#100
+b0 !
+b0 m
+b0 "
+b0 l
+0n
+0'
+#120
+b111001110011100111001110011110 !
+b111001110011100111001110011110 m
+0y
+b111001110011100111111110011110 %
+b111001110011100111111110011110 *
+b0 &
+b0 +
+b1 $
+b1 )
+#220
+b111001110011100111111110011110 K
+b111001110011100111111110011110 1"
+b111001110011100111111110011110 L
+b111001110011100111111110011110 0"
+1n
+1'
+#320
+b111001110011100111111110011110 "
+b111001110011100111111110011110 l
+0n
+0'
+#420
+b11000000000000000000000000000000 @
+b11000000000000000000000000000000 G"
+b11000000000000000000000000000000 W
+b11000000000000000000000000000000 F"
+1y
+b11000000000000000000000000000000 %
+b11000000000000000000000000000000 *
+b1 &
+b1 +
+1'
+#520
