@@ -13,7 +13,7 @@ module RegisterFile (input write, input [0:31] reg_data, input [0:4] register_no
     wire [0:31] out1; wire [0:31] out2; wire [0:31] out3; wire [0:31] out4; wire [0:31] out5; wire [0:31] out6; wire [0:31] out7; wire [0:31] out8; wire [0:31] out9; wire [0:31] out10; wire [0:31] out11; wire [0:31] out12; wire [0:31] out13; wire [0:31] out14; wire [0:31] out15; wire [0:31] out16; wire [0:31] out17; wire [0:31] out18; wire [0:31] out19; wire [0:31] out20; wire [0:31] out21; wire [0:31] out22; wire [0:31] out23; wire [0:31] out24; wire [0:31] out25; wire [0:31] out26; wire [0:31] out27; wire [0:31] out28; wire [0:31] out29; wire [0:31] out30; wire [0:31] out31; wire [0:31] out32;
     reg write1, write2, write3, write4, write5, write6, write7, write8, write9, write10, write11, write12, write13, write14, write15, write16, write17, write18, write19, write20, write21, write22, write23, write24, write25, write26, write27, write28, write29, write30, write31, write32;
 
-    // 32 Registers
+    // 32 Registers in the Register file
     rg32b rg1 (data_write1, write1, out1);
     rg32b rg2 (data_write2, write2, out2);
     rg32b rg3 (data_write3, write3, out3);
@@ -88,6 +88,7 @@ module RegisterFile (input write, input [0:31] reg_data, input [0:4] register_no
                 5'b11111: begin write32 <= 1'b1; data_write32 <= reg_data; end
             endcase    
         end
+        
         else begin
             // decode read Register 1 address 
             case (readReg1)
