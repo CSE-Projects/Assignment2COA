@@ -62,7 +62,7 @@ module RegisterFile (input write, input [0:31] reg_data, input [0:4] register_no
                 5'b00101: begin write6 <= 1'b1; data_write6 <= reg_data; end
                 5'b00110: begin write7 <= 1'b1; data_write7 <= reg_data; end
                 5'b00111: begin write8 <= 1'b1; data_write8 <= reg_data; end
-                5'b01000: begin write8 <= 1'b1; data_write9 <= reg_data; end
+                5'b01000: begin write9 <= 1'b1; data_write9 <= reg_data; end
                 5'b01001: begin write10 <= 1'b1; data_write10 <= reg_data; end
                 5'b01010: begin write11 <= 1'b1; data_write11 <= reg_data; end
                 5'b01011: begin write12 <= 1'b1; data_write12 <= reg_data; end
@@ -100,7 +100,7 @@ module RegisterFile (input write, input [0:31] reg_data, input [0:4] register_no
                 5'b00101: begin write6 <= 1'b0; readData1 <= out6; end
                 5'b00110: begin write7 <= 1'b0; readData1 <= out7; end
                 5'b00111: begin write8 <= 1'b0; readData1 <= out8; end
-                5'b01000: begin write8 <= 1'b0; readData1 <= out9; end
+                5'b01000: begin write9 <= 1'b0; readData1 <= out9; end
                 5'b01001: begin write10 <= 1'b0; readData1 <= out10; end
                 5'b01010: begin write11 <= 1'b0; readData1 <= out11; end
                 5'b01011: begin write12 <= 1'b0; readData1 <= out12; end
@@ -136,7 +136,7 @@ module RegisterFile (input write, input [0:31] reg_data, input [0:4] register_no
                 5'b00101: begin write6 <= 1'b0; readData2 <= out6; end
                 5'b00110: begin write7 <= 1'b0; readData2 <= out7; end
                 5'b00111: begin write8 <= 1'b0; readData2 <= out8; end
-                5'b01000: begin write8 <= 1'b0; readData2 <= out9; end
+                5'b01000: begin write9 <= 1'b0; readData2 <= out9; end
                 5'b01001: begin write10 <= 1'b0; readData2 <= out10; end
                 5'b01010: begin write11 <= 1'b0; readData2 <= out11; end
                 5'b01011: begin write12 <= 1'b0; readData2 <= out12; end
