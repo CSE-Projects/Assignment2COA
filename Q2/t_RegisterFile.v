@@ -77,6 +77,16 @@ module t_RegisterFile;
         #1;
         readReg2 = 5'b00001;
 
+        #10;
+        readReg1 = 5'b01000;
+        #1;
+        readReg2 = 5'b10001;
+
+        #10;
+        readReg1 = 5'b01010;
+        #1;
+        readReg2 = 5'b11111;
+
         #30;
        
     end
@@ -84,6 +94,7 @@ module t_RegisterFile;
     // display outputs
     initial begin
         // outputs are displayed in vcd file itself.
+        $display("\n\nFor outputs Please view vcd file\n\n");
     end
 
 endmodule
